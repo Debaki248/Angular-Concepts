@@ -1,0 +1,5 @@
+<form #mockSpies="ngForm" (ngSubmit)="sendMessage(mockSpies.value)"><br>
+    userName:<input type="text" name="userName" placeholder="userName" ngModel><br>
+    password:<input type="password" name="password" placeholder="password" ngModel>
+    <button>sendMessage</button>
+</form>

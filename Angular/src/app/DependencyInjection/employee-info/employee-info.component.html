@@ -1,0 +1,13 @@
+
+<button type="button" (click)="getInfoServiceOne()">EmployeeOne</button>
+<ul>
+    <li class="list-group-item" *ngFor="let record of infoServiceOne">{{record}}</li>
+</ul>
+<button type="button" (click)="getInfoServiceTwo()">EmployeeTwo</button>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let rec of infoServiceTwo">{{rec}}</li>
+</ul>
+<button type="button" (click)="getInfoServiceThree()">EmployeeThree</button>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let rec of infoServiceThree">{{rec}}</li>
+</ul>

@@ -1,0 +1,17 @@
+<!-- <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown Menu
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownButton" (change)="changeLang($event)">
+        <li><a class="dropdown-item">English</a></li>
+        <li><a class="dropdown-item">German</a></li>
+        <li><a class="dropdown-item">spanish</a></li>
+        <li></li>
+    </ul>
+</div><br>
+-->
+<select (change)="changeLang($event)">
+    <option value="English" [selected]="eventValue == 'english'">English</option>
+    <option value="German" [selected]="eventValue == 'german'">German</option>
+    <option value="spanish" [selected]="eventValue == 'spanish'">spanish</option>
+</select>

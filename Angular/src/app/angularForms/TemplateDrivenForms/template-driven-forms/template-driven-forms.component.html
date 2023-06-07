@@ -1,0 +1,11 @@
+<form [formGroup]="templateDriven" (ngSubmit)="loginUser()">
+    UserName:<input type="text" formControlName="userName" name="userName"><br>
+    PassPort:<input type="text" formControlName="password" name="password"><br>
+    <input type="submit" value="submit">
+</form>
+
+<form [formGroup]="newForm" (ngSubmit)="onChange()">
+    UserName: <input type="text" formControlName="newUserName"><br>
+    Password: <input type="text" formControlName="newUserPassword"><br>
+    <input type="submit" value="submit">
+</form>
